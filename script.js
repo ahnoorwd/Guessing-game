@@ -32,4 +32,7 @@ document.getElementById('checkButton').addEventListener('click', function() {
     }
 
     randomNumber = Math.floor(Math.random() * 5) + 1;  // Reset random number for next round
+
+    // Clear the input field after the guess
+    document.getElementById('userGuess').value = '';
 });
